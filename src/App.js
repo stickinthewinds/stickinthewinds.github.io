@@ -12,12 +12,6 @@ function App() {
           Resume
         </a>
         <a
-          href="#"
-          rel="noopener noreferrer"
-        >
-          Email
-        </a>
-        <a
           href="https://github.com/stickinthewinds"
           target="_blank"
           rel="noopener noreferrer"
