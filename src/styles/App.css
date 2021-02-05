@@ -1,0 +1,37 @@
+.info {
+  padding: 0px 0px 50px 0px; }
+  .info h1 {
+    margin: 0px 0px 0px 0px; }
+  .info h5 {
+    margin: 0px 0px 0px 0px; }
+
+.links {
+  background-color: #2e3439;
+  text-align: left;
+  font: 30px;
+  border: 1px solid black;
+  padding: 4px; }
+  .links a {
+    color: #61dafb;
+    padding: 6px 12px;
+    text-decoration: none; }
+  .links a:hover {
+    color: #21B6A8;
+    font-style: bold; }
+
+.App {
+  background-color: #272b30;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0px; }
+
+.App-header {
+  width: max-content;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white; }
+
+/*# sourceMappingURL=App.css.map */

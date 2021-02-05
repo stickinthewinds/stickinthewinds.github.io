@@ -1,0 +1,51 @@
+@import 'colours';
+
+nav {
+}
+
+.info {
+  h1 {
+    margin: 0px 0px 0px 0px;
+  }
+  h5 {
+    margin: 0px 0px 0px 0px;
+  }
+  padding: 0px 0px 50px 0px;
+}
+
+.occupation {}
+
+.links {
+  background-color: $lightGray;
+  text-align: left;
+  font: 30px;
+  border: 1px solid black;
+  padding: 4px;
+  a {
+    color: $navDark;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $blueGreen;
+    font-style: bold;
+  }
+}
+
+.App {
+  background-color: $darkGray;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0px;
+}
+
+.App-header {
+  width: max-content;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
