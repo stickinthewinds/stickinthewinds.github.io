@@ -36,10 +36,12 @@ function App() {
       <header className="App-header">
         <div className="info">
           <h1>Axel Bremner</h1>
-          <h5>axel.bremner@gmail.com</h5>
+          <div className="email">
+            <a className="underline" href="mailto:contact@axelbremner.id.au">Email</a>
+          </div>
         </div>
         <div className="occupation">
-          Computer Science student
+          Computer Science student at Curtin University
         </div>
       </header>
     </div>

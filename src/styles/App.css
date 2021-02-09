@@ -34,4 +34,29 @@
   font-size: calc(10px + 2vmin);
   color: white; }
 
+.email {
+  width: max-content; }
+
+.underline {
+  color: #61dafb;
+  /*Initial colour*/
+  text-decoration: none; }
+
+.underline::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: #61dafb;
+  /*Line colour*/
+  transition: width 0.1s ease 0s, left 0.1s ease 0s;
+  width: 0; }
+
+.underline:hover:after {
+  width: 100%;
+  /*Underlines all the text*/
+  left: 0; }
+
 /*# sourceMappingURL=App.css.map */
