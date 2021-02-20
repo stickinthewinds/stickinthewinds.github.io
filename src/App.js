@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <nav class="links">
         <a
-          href="assets/files/Axel_Bremner_Resume.pdf"
+          href="assets/files/Axel_Bremner_Resume_2021.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
